@@ -7,6 +7,7 @@ public class example1 {
 		
 		
 		System.out.println("merging this to main branch");
+		System.out.println("using git in cmd");
 		
 	}
 }
