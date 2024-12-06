@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="examples.SoftAssertions1">
+      <class name="com.demo.tests.LoginTest">
         <methods>
-          <include name="example"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loginToTheDemoWebsite"/>
         </methods>
-      </class> <!-- examples.SoftAssertions1 -->
+      </class> <!-- com.demo.tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
